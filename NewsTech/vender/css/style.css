@@ -1,0 +1,132 @@
+body {
+    background-color: transparent;
+    color: #444444;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.logo {
+    width: 20%;
+}
+.nav-link {
+    text-transform: uppercase;
+}
+
+.title-wrap {
+    position: relative;
+    width: 100%;
+}
+.title-head {
+    position: relative;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+.title-head:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: -2px;
+    left: 0;
+    color: #ffffff;
+    background-color: #333333;
+}
+.title {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.title-text {
+    color: #ffffff;
+    background-color: #333333;
+    font-family: 'Catamaran';
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.44;
+    margin-bottom: 0;
+    padding: 4px 14px 5px;
+    border-radius: 2px 2px 0 0;
+}
+
+.post-header {
+    margin-top: 10px;
+}
+
+.meta-category  a{
+    color: #f57c00;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.meta-category a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+.post-title a {
+    color: #333333;
+    font-size: 1.3rem;
+    line-height: 1.42;
+}
+.post-title a:hover {
+    color: #f57c00;
+    text-decoration: none;
+}
+.post-time {
+    color: #999999;
+    font-size: 1rem;
+}
+.post-title-small a {
+    color: #333333;
+}
+.post-title-small a:hover {
+    color: #f57c00;
+    text-decoration: none;
+}
+
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    background: #000219;
+}
+footer p {
+    color: #dadada;
+    margin: 12px 20px;
+}
+footer p a {
+    color: #f57c00;
+}
+footer p a:hover {
+    color: #f57c00;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+
+
+.error-title {
+    position: relative;
+}
+.entry-header {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    z-index: 10;
+}
+.error-title span:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5) !important;
+}
